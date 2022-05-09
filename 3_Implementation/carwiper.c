@@ -70,7 +70,7 @@ int main(void)
 	GPIO_Init(&GpioBtn);
 
 	uint32_t flag = 0;
-	uint32_t Button_pressed = 0;  /
+	uint32_t key_pressed = 0;  /
 
 	while (1)                                                           
 	{
@@ -80,28 +80,28 @@ int main(void)
 
 			delay();
 			flag++;
-			if ((flag == 1) && (Button_pressed != 1) && (Button_pressed != 2) && Button_pressed != 3)
+			if ((flag == 1) && (key_pressed != 1) && (key_pressed != 2) && key_pressed != 3)
 			{
 				igniton_on();
-				Button_pressed = flag;
+				key_pressed = flag;
 				flag = 0;
 			}
-			else if ((flag == 2) && (Button_pressed != 2) && Button_pressed != 3)
+			else if ((flag == 2) && (key_pressed != 2) && key_pressed != 3)
 			{
 				igniton_off();
-				Button_pressed = flag;
+				key_pressed = flag;
 				flag = 0;
 			}
-			else if ((flag == 3) && Button_pressed != 3)
+			else if ((flag == 3) && key_pressed != 3)
 			{
 				Clockwise();
-				Button_pressed = flag;
+				key_pressed = flag;
 				flag = 0;
 			}
 			else if (flag == 4)
 			{
 				wiper_off();
-				Button_pressed = flag;
+				key_pressed = flag;
 				flag = 0;
 			}
 		}
