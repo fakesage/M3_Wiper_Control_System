@@ -13,6 +13,6 @@
 ![third](https://user-images.githubusercontent.com/101174057/167471813-450ece14-5020-4a9d-a4f4-a8d41955ab58.png)
 
 ## 4. Button pressed once again for two seconds
-* Car is on ACC mode that means car turned off
-![fourth](https://user-images.githubusercontent.com/101174057/167471826-916c1217-138d-4ebe-abf3-507395863fa4.png
+* Car is on ACC mode that means car turned off.
+![fourth](https://user-images.githubusercontent.com/101174057/167471826-916c1217-138d-4ebe-abf3-507395863fa4.png)
 
