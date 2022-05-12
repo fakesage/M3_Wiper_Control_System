@@ -1,7 +1,12 @@
-# M3_Car_Wiper_Control
-
 # M3_WIPER_CONTROL_SYSTEM
 
+# BADGES
+* Codiga - Static Analysis
+[![Quality](https://api.codiga.io/project/33313/score/svg)]
+* Code quality
+[![CodeQL](https://github.com/Stephenj071/M3_Wiper_Control_System/actions/workflows/c-ccpp.yml/badge.svg?branch=main)](https://github.com/Stephenj071/M3_Wiper_Control_System/actions/workflows/c-ccpp.yml)
+
+# INTRODUCTION
 This Wiper Speed Control System is utilised in all sorts of automobiles, and its primary function is to remove rain air drops from the vehicle's front screen. Because driving a vehicle in the rain is quite difficult, we will use wipers to clear the front screen of the vehicle, which is a mirror, so that we may drive the vehicle even in the rain.
 
 
